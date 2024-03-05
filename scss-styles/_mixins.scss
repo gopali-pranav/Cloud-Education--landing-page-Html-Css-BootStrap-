@@ -1,0 +1,22 @@
+@mixin btn1 {
+  width: Hug (100px);
+  height: Fixed (48px);
+  padding: 10px 24px 10px 24px;
+  border-radius: 100px;
+  gap: 10px;
+  background-color: $primary;
+  color: $white;
+  border: none;
+}
+
+@mixin btn2 {
+  width: Hug (198px);
+  height: Fixed (48px);
+  padding: 10px, 24px, 10px, 24px;
+  border-radius: 100px;
+  gap: 10px;
+  background-color: $white;
+  border: 1px solid #ff785a;
+}
+
+//responsice button 768
